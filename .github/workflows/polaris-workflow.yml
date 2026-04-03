@@ -51,8 +51,6 @@ jobs:
 
       ### SCANNING: Optional fields
       # BRIDGE_POLARIS_WAIT_FOR_SCAN: true # Wait for scan to complete
-      BRIDGE_DETECT_ARGS: --detect.nuget.dependency.types.excluded=DEV
-      BRIDGE_POLARIS_TEST_SCA_TYPE: SCA-PACKAGE,SCA-SIGNATURE
     steps:
       - name: Checkout Source
         uses: actions/checkout@v5
